@@ -30,7 +30,7 @@ endif()
 
 
 ### If you use arduino-esp32 components, please activate next comment line.
-# list(APPEND COMPONENT_REQUIRES arduino-esp32)
+list(APPEND COMPONENT_REQUIRES arduino-esp32)
 
 
 message(STATUS "LovyanGFX use components = ${COMPONENT_REQUIRES}")
